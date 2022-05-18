@@ -1,0 +1,10 @@
+<h2>All our flats</h2>
+<div class="card-trip">
+  <% @flats.each do |flat| %>
+  <div class="card-trip-infos">
+    <img src="https://i.picsum.photos/id/101/2621/1747.jpg?hmac=cu15YGotS0gIYdBbR1he5NtBLZAAY6aIY5AbORRAngs" />
+    <h2><%= flat.name %></h2>
+    <p><%= flat.description %></p>
+    <% end  %>
+  </div>
+</div>
